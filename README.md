@@ -30,11 +30,13 @@ Worker     -> Process/sub process executing your task
 
 ## Important concepts
 
-DAG'S: Directed Acyclic Graph. is a collection of tasks with dependencies that represent a workflow or data pipeline. A DAG is defined as a Python script that creates a DAG object and adds tasks to it using Airflow's Python API.
+### DAG'S: 
+Directed Acyclic Graph. is a collection of tasks with dependencies that represent a workflow or data pipeline. A DAG is defined as a Python script that creates a DAG object and adds tasks to it using Airflow's Python API.
 
-Operators: is a class that defines a single task in a DAG.
+### Operators: 
+Is a class that defines a single task in a DAG.
 
-kind of operators:
+### kind of operators:
 
 Action operator  -> excute some thing
 
