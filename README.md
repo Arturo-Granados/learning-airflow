@@ -1,3 +1,24 @@
 # learning-airflow
 <a><img src="images/apache_airflow.webp" /></a>
 Overall, Apache Airflow is a powerful tool for data engineering that empowers users to create, manage, and scale complex data pipelines with ease and confidence. Its active community, growing ecosystem, and flexible design make it a popular choice for data-driven organizations of all sizes and domains.
+
+## What is Apache Airflow
+
+Apache Airflow is an open-source platform to programmatically author, schedule, and monitor workflows or data pipelines.
+
+## Why Airflow?
+
+Because let monitoring multiples data pipelines at the same time.
+
+## Components
+
+### Principals 
+
+Web server -> let get access to the UI
+Scheduler  -> schedule the tasks
+Metastore  -> data base where the metadata are store
+
+### Aditionals
+
+Executor   -> class definning how your task should be eecuted 
+Worker     -> Process/sub process executing your task
