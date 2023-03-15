@@ -8,7 +8,7 @@ Apache Airflow is an open-source platform to programmatically author, schedule, 
 
 ## Why Airflow?
 
-Because let monitoring multiples data pipelines at the same time.
+Airflow is a batch workflow orchestration platform. The Airflow framework contains operators to connect with many technologies and is easily extensible to connect with a new technology
 
 ## Components
 
@@ -16,12 +16,28 @@ Because let monitoring multiples data pipelines at the same time.
 
 Web server -> let get access to the UI
 
+Taks       -> taks is a basic unit of execution of airflow(task are arranged into dag's)
+
 Scheduler  -> schedule the tasks
 
-Metastore  -> data base where the metadata are store
+Metastore  -> database where the metadata are store
 
 ### Aditionals
 
 Executor   -> class definning how your task should be eecuted 
 
 Worker     -> Process/sub process executing your task
+
+## Important concepts
+
+DAG'S: Directed Acyclic Graph. is a collection of tasks with dependencies that represent a workflow or data pipeline. A DAG is defined as a Python script that creates a DAG object and adds tasks to it using Airflow's Python API.
+
+Operators: is a class that defines a single task in a DAG.
+
+kind of operators:
+
+Action operator  -> excute some thing
+
+Tranfer operator -> transform data
+
+Sensor operatos  -> allow you to wait for  a condition to be met before getting complited. 
