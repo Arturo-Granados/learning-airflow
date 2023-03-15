@@ -33,13 +33,19 @@ Worker     -> Process/sub process executing your task
 ### DAG'S: 
 Directed Acyclic Graph. is a collection of tasks with dependencies that represent a workflow or data pipeline. A DAG is defined as a Python script that creates a DAG object and adds tasks to it using Airflow's Python API.
 
+### Workflow
+In Apache Airflow, a workflow refers to a sequence of tasks that are orchestrated to perform a specific data processing or data integration job.
+
 ### Operators: 
 Is a class that defines a single task in a DAG.
 
 ### kind of operators:
 
-Action operator  -> excute some thing
+Action operator  -> excute something
 
 Tranfer operator -> transform data
 
-Sensor operatos  -> allow you to wait for  a condition to be met before getting complited. 
+Sensor operatos  -> allow you to wait for  a condition to be met before getting complited
+
+## What airflow is not?
+Is not a data streaming solution neither a data processing framework.
