@@ -15,10 +15,13 @@ Because let monitoring multiples data pipelines at the same time.
 ### Principals 
 
 Web server -> let get access to the UI
+
 Scheduler  -> schedule the tasks
+
 Metastore  -> data base where the metadata are store
 
 ### Aditionals
 
 Executor   -> class definning how your task should be eecuted 
+
 Worker     -> Process/sub process executing your task
