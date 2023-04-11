@@ -32,7 +32,7 @@ The executor define how your tasks are going to be  executed in wich system and 
 ## Important concepts
 
 ### Tasks
-Taks is a basic unit of execution of airflow(task are arranged into dag's).
+Tasks is a basic unit of execution of airflow(task are arranged into dag's).
 
 ### DAG'S: 
 Directed Acyclic Graph. is a collection of tasks with dependencies that represent a workflow or data pipeline. A DAG is defined as a Python script that creates a DAG object and adds tasks to it using Airflow's Python API.
