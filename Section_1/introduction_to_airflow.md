@@ -45,11 +45,11 @@ Is a class that defines a single task in a DAG.
 
 ### kind of operators:
 
-Action operator  -> excute something
+Action operator  -> Excute something.
 
-Tranfer operator -> transform data
+Tranfer operator -> Transform data.
 
-Sensor operatos  -> allow you to wait for  a condition to be met before getting complited
+Sensor operatos  -> Allow you to wait for  a condition to be met before getting complited.
 
 ## What airflow is not?
 Is not a data streaming solution neither a data processing framework.
