@@ -27,11 +27,11 @@ Executor   -> Class definning how your task should be executed.
 Worker     -> Process/sub process executing your tasks.
 
 ### Diference between Executor and Worker
-The executor define how your taks are going to be  executed in wich system and a worker is the procces where yuor task is effetively executed.
+The executor define how your tasks are going to be  executed in wich system and a worker is the procces where yuor task is effetively executed.
 
 ## Important concepts
 
-### Taks
+### Tasks
 Taks is a basic unit of execution of airflow(task are arranged into dag's).
 
 ### DAG'S: 
