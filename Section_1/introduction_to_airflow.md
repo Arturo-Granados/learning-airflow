@@ -1,5 +1,5 @@
 # learning-airflow
-<a><img src="images/apache_airflow.webp" /></a>
+<a><img src="./images/apache_airflow.webp"/></a>
 Overall, Apache Airflow is a powerful tool for data engineering that empowers users to create, manage, and scale complex data pipelines with ease and confidence. Its active community, growing ecosystem, and flexible design make it a popular choice for data-driven organizations of all sizes and domains.
 
 ## What is Apache Airflow
@@ -8,27 +8,31 @@ Apache Airflow is an open-source platform to programmatically author, schedule, 
 
 ## Why Airflow?
 
-Airflow is a batch workflow orchestration platform. The Airflow framework contains operators to connect with many technologies and is easily extensible to connect with a new technology
+Airflow is a batch workflow orchestration platform. The Airflow framework contains operators to connect with many technologies and is easily extensible to connect with a new technology.
 
 ## Components
 
 ### Principals 
 
-Web server -> let get access to the UI
+Web server -> Flask server with Giunicorn that give access to the UI.
 
-Taks       -> taks is a basic unit of execution of airflow(task are arranged into dag's)
+Scheduler  -> Schedule the tasks.
 
-Scheduler  -> schedule the tasks
-
-Metastore  -> database where the metadata are store
+Metastore  -> Database where the metadata are store.
 
 ### Aditionals
 
-Executor   -> class definning how your task should be eecuted 
+Executor   -> Class definning how your task should be executed. 
 
-Worker     -> Process/sub process executing your task
+Worker     -> Process/sub process executing your tasks.
+
+### Diference between Executor and Worker
+The executor define how your taks are going to be  executed in wich system and a worker is the procces where yuor task is effetively executed.
 
 ## Important concepts
+
+### Taks
+Taks is a basic unit of execution of airflow(task are arranged into dag's).
 
 ### DAG'S: 
 Directed Acyclic Graph. is a collection of tasks with dependencies that represent a workflow or data pipeline. A DAG is defined as a Python script that creates a DAG object and adds tasks to it using Airflow's Python API.
